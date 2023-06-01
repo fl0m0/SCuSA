@@ -1,0 +1,13 @@
+* C:\Users\Florian\Documents\GitHub\SCuSA\sim\Amplifier\Amplifier.asc
+XU1 N002 N003 0 out 3V3 ref N001 AD8418A
+V1 3V3 0 3.3
+R1 N001 N002 50m
+I1 0 N001 PULSE(-1.8 3 0 0.1m 0.1m 1m 2m)
+V2 ref 0 0
+V3 N002 0 1
+V4 N003 0 -2
+.tran 10m
+* Top plot pane shows error.
+.lib ADI1.lib
+.backanno
+.end
