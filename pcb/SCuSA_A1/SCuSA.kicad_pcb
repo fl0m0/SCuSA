@@ -926,7 +926,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9605e480-bc36-43dc-bc6b-a54db9f4465a)
     )
-    (fp_text value "470nF,25V,X7R,0603" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "1uF,16V,X7R,0603" (at 0 1.43) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 40134537-1c15-4af4-a9f5-5a3e1b75a09b)
     )

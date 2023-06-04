@@ -1,0 +1,52 @@
+,,,Source:,C:\Users\Florian\Documents\GitHub\SCuSA\pcb\SCuSA_A1\SCuSA.kicad_sch,,,,,,,,,,,,,,,,,,
+,,,Date:,6/4/2023 8:39:19 PM,,,,,,,,,,,,,,,,,,
+,,,Tool:,Eeschema 7.0.5,,,,,,,,,,,,,,,,,,
+,,,Generator:,C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,,,,,,,,,,,,
+,,,Component Count:,63,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,Collated Components:,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Vorhanden,Bestellt,Lieferant,Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DNP,Color,Info,MPN,Manufacturer,Package,Power,Pretty Value 1,Pretty Value 2,Resistance,SPN,Supplier,Tolerance
+,,,1,4,"C101, C102, C106, C114","1uF,16V,X7R,0603","Capacitor_User:1uF,16V,X7R,0603",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,,,"1μF, 16V","X7R, 0603",,,,
+,,,2,3,"C103, C112, C113","100nF,16V,X7R,0603","Capacitor_User:100nF,16V,X7R,0603",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,,,"100nF, 16V","X7R, 0603",,,,
+,,,3,3,"C104, C105, C107","2.2uF,25V,X7R,0603","Capacitor_User:2.2uF,25V,X7R,0603",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,,,,,,,,"2.2μF, 25V","X7R, 0603",,,,
+,,,4,1,C108,"4.7uF,25V,X7R,0805","Capacitor_User:4.7uF,25V,X7R,0805",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~,,,,,,,,"4.7μF, 25V","X7R, 0805",,,,
+,,,5,3,"C109, C110, C111","100nF,100V,X7R,0603","Capacitor_User:100nF,100V,X7R,0603",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~,DNP,,,,,,,"100nF, 100V","X7R, 0603",,,,
+,,,6,1,D101,150080BS75000,LED_User:150080BS75000,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://www.we-online.com/katalog/datasheet/150080BS75000.pdf,,,Blue,,Wurth Elektronik,,,,,,732-4982-1-ND,Digi-Key,
+,,,7,1,D102,150080SS75000,LED_User:150080SS75000,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://www.we-online.com/katalog/datasheet/150080SS75000.pdf,,,Red,,Wurth Elektronik,,,,,,732-4985-1-ND,Digi-Key,
+,,Digi-Key,8,1,D103,150080GS75000,LED_User:150080GS75000,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://www.we-online.com/katalog/datasheet/150080GS75000.pdf,,,Green,,Wurth Elektronik,,,,,,732-4983-1-ND,Digi-Key,
+,,,9,1,F101,0ZCJ0110FF2E,Fuse_User:0ZCJ0110FF2E,Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zch-series.pdf,,,"1.1 A, 8V",0ZCJ0110FF2E,Bel Fuse,,,,,,507-1807-1-ND,Digi-Key,
+,,Digi-Key,10,1,FB101,742792620,Ferrite_User:742792620,Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://www.we-online.com/components/products/datasheet/742792620.pdf,,,"100Ω, 0.5A",742792620,Wurth Electronics,,,,,,732-1579-1-ND,Digi-Key,
+,,,11,1,J101,USB4135-GF-A,Connector_User:USB4135-GF-A,Connector_User:USB-C_Receptacle_GTC_USB4135-GF-A,https://gct.co/de-de/connector/usb4135,,,,USB4135-GF-A,GTC,,,,,,2073-USB4135-GF-ACT-ND,Digi-Key,
+,,,12,1,J102,JST_S2B-PH-K-x,:JST_S2B-PH-K-x_1,Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,https://www.jst-mfg.com/product/pdf/eng/ePH.pdf,,,,S2B-PH-K-S,JST,,,,,,455-1719-ND,Digi-Key,
+,,Reichelt,13,1,J103,Binding_Post_PK4_Red,Connector_User:Binding_Post_PK4_Red,Connector_User:Binding_Post_4.3mm_M4_DIN965_Pad,https://cdn-reichelt.de/documents/datenblatt/C170/DS_PK4_1.pdf,,,,,,,,,,,PK 4 RT,Reichelt,
+,,Reichelt,14,1,J104,Binding_Post_PK4_Black,Connector_User:Binding_Post_PK4_Black,Connector_User:Binding_Post_4.3mm_M4_DIN965_Pad,https://cdn-reichelt.de/documents/datenblatt/C170/DS_PK4_1.pdf,,,,,,,,,,,PK 4 SW,Reichelt,
+,,Digi-Key,15,1,J105,SMA_Straight_Jack_Female,Connector_User:SMA_Straight_Jack_Female,Connector_Coaxial:SMA_Wurth_60312002114503_Vertical,https://app.adam-tech.com/products/download/data_sheet/219105/rf2-04a-t-00-50-g-data-sheet.pdf,,,,RF2-04A-T-00-50-G,Adam Tech,,,,,,2057-RF2-04A-T-00-50-G-ND,Digi-Key,
+,,,16,2,"J107, J108",77311-118-02LF,Connector_User:77311-118-02LF,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/77311.pdf,,,,,Amphenol,,,,,,609-4434-ND,Digi-Key,
+,,,17,1,JP101,SolderJumper_2_Bridged,Jumper:SolderJumper_2_Bridged,Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,~,,,,,,,,,,,,,
+,,,18,1,JP103,SolderJumper_3_Bridged12,Jumper:SolderJumper_3_Bridged12,Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels,~,,,,,,,,,,,,,
+,,Digi-Key,19,1,Q101,DMN2041LSD,Transistor_FET_User:DMN2041LSD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.diodes.com/assets/Datasheets/ds31964.pdf,,,,DMN2041LSD-13,Diodes Incorporated,,,,,,DMN2041LSD-13DICT-ND,Digi-Key,
+,,,20,2,"R101, R102","5.1k,0603","Resistor_User:5.1k,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,603,0.1W,,,5.1k,,,1%
+,,,21,1,R103,"2k,0603","Resistor_User:2k,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,603,0.1W,,,2k,,,1%
+,,,22,1,R104,"470R,0603","Resistor_User:470R,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,603,0.1W,,,470R,,,1%
+,,,23,1,R105,"330R,0603","Resistor_User:330R,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,603,0.1W,,,330R,,,1%
+,,,24,1,R106,"2.2k,0603","Resistor_User:2.2k,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,603,0.1W,,,2.2k,,,1%
+,,Digi-Key,25,2,"R107, R108","5.1M,0603","Resistor_User:5.1M,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,603,0.1W,,,5.1M,,,1%
+,,,26,2,"R109, R117","10k,0603","Resistor_User:10k,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,603,0.1W,,,10k,,,1%
+,,,27,1,R110,"120k,0603","Resistor_User:120k,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,603,0.1W,,,120k,,,1%
+,,,28,2,"R111, R112","68k,0603","Resistor_User:68k,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,603,0.1W,,,68k,,,1%
+,,,29,1,R113,"120k,0603","Resistor_User:47k,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,603,0.1W,,,47k,,,1%
+,,Digi-Key,30,1,R114,50m,"Resistor_User:50m,1206",Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,,,,,,1206,1W,,,50m,,,0.5%
+,,,31,3,"R115, R116, R119","0R,0603","Resistor_User:0R,0603",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~,,,,,,603,0.1W,,,0R,,,1%
+,,,32,1,R118,"49.9R,1206","Resistor_User:49.9R,1206",Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~,,,,,,1206,0.5W,,,49.9R,,,1%
+,,,33,1,RV101,10k_Potentiometer_Trim_TSR-3296W,Resistor_User:10k_Potentiometer_Trim_TSR-3296W,Potentionmeter_THT_User:Potentiometer_Suntan_3296W_Vertical,https://cdn-reichelt.de/documents/datenblatt/B400/64W100K.pdf,,,,TSR-3296W,Suntan,,,,,,64W-10K,Reichelt,
+,,Digi-Key,34,2,"SW101, SW102",JS202011CQN,Switch_User:Slide_Switch_JS202011CQN,Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight,https://www.ckswitches.com/media/1422/js.pdfButton_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight,,,,JS202011CQN,CuK,,,,,,401-2001-ND,Digi-Key,
+,,,35,3,"TP101, TP103, TP105",TestPoint_5010_Red,Testpoint_User:TestPoint_5010_Red,TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded,https://www.keystone-europe.com/wp-content/uploads/2019/11/M70_keystone_guide_2019.pdf,,Red,,5010,Keystone Electronics,,,,,,36-5005-ND,Digi-Key,
+,,,36,2,"TP102, TP104",TestPoint_5011_Black,Testpoint_User:TestPoint_5011_Black,TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded,https://www.keystone-europe.com/wp-content/uploads/2019/11/M70_keystone_guide_2019.pdf,,Black,,5011,Keystone Electronics,,,,,,36-5011-ND,Digi-Key,
+,,,37,1,TP106,TestPoint_5012_White,Testpoint_User:TestPoint_5012_White,TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded,https://www.keystone-europe.com/wp-content/uploads/2019/11/M70_keystone_guide_2019.pdf,,White,,5012,Keystone Electronics,,,,,,36-5012-ND,Digi-Key,
+,,Digi-Key,38,1,U101,MCP73832T-2ACI/OT,Battery_Management:MCP73832-2-OT,Package_TO_SOT_SMD:SOT-23-5,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf,,,,,,,,,,,MCP73832T-2ACI/OTCT-ND,Digi-Key,
+,,Digi-Key,39,1,U102,BQ29700DSER,Battery_Management:BQ297xy,Package_SON:WSON-6_1.5x1.5mm_P0.5mm,http://www.ti.com/lit/ds/symlink/bq2970.pdf,,,,,,,,,,,,,
+,,Digi-Key,40,1,U103,TLV803EA30DBZR,Power_Supervisor_User:TLV803EA30DBZR,Package_TO_SOT_SMD:SOT-23,https://www.ti.com/lit/ds/symlink/tlv803e.pdf,,,,TLV803EA30DBZR,Texas Instruments,,,,,,296-TLV803EA30DBZRCT-ND,Digi-Key,
+,,Digi-Key,41,1,U104,LM27762,Regulator_SwitchedCapacitor:LM27762,Package_SON:WSON-12-1EP_3x2mm_P0.5mm_EP1x2.65_ThermalVias,http://www.ti.com/lit/ds/symlink/lm27762.pdf,,,,,,,,,,,,,
+,,Digi-Key,42,1,U105,AD8410AWBRZ,Amplifier_Current:AD8418,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf,,,,,,,,,,,505-AD8410AWBRZ-ND,Digi-Key,
+,,,43,1,U106,AD8655ARZ,Amplifier_Operational:AD8655,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.analog.com/media/en/technical-documentation/data-sheets/ad8655_8656.pdf,,,,,,,,,,,505-AD8655ARZ-ND,Digi-Key,
