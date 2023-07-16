@@ -7,6 +7,8 @@
 # Modifications
 
 1. FB100, FB101: used 742792118
+1. R104 changed to 1.2k
+1. R103 changed to 4.7k to increase charge current to ~ 210 mA
 
 # To Dos
 
@@ -15,4 +17,36 @@
 3. Negative measure current
 4. Solder voltage supervisor
 5. Measure current consumption
+
+# Measurements
+
+`PGOOD` LED turns off below 3.14 V
+
+## Supply rail voltage ripple
+
++3V3
+
+![](scope/SDS2504X Plus_PNG_3.png)
+
++3V3 after ferrite bead:
+
+![](scope/SDS2504X Plus_PNG_4.png)
+
+-2V:
+
+![](scope/SDS2504X Plus_PNG_5.png)
+
+-2V after ferrite bead:
+
+![](scope/SDS2504X Plus_PNG_6.png)
+
+# Output voltage
+
+5mR sense resistor. CH2 set to high impedance input
+
+CH1: Current sense amplifier output
+
+CH2: 50R buffer output (acually 47R)
+
+![](scope/SDS2504X Plus_PNG_7.png)
 
