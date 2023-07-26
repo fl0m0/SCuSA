@@ -40,7 +40,7 @@
 
 ![](scope/SDS2504X Plus_PNG_6.png)
 
-# Output voltage
+# Output signal noise
 
 5mR sense resistor. CH2 set to high impedance input
 
@@ -50,3 +50,12 @@ CH2: 50R buffer output (acually 47R)
 
 ![](scope/SDS2504X Plus_PNG_7.png)
 
+## Correlation with power supply ripple
+
+No obvious correlation. Signal noise seems to be inherent to signal chain, not supply voltage.
+
+F1 = FFT(C1), F2 = FFT(C2)
+
+![](scope/SDS2504X Plus_PNG_8.png)
+
+![](scope/SDS2504X Plus_PNG_10.png)
