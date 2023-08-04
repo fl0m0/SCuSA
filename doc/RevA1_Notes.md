@@ -60,7 +60,7 @@ V_PP = 4,9 mV
 
 V_RMS = 855 µV
 
-![](scope/SDS2504X Plus_PNG_3.png)
+![](scope/SDS2504X_Plus_PNG_3.png)
 
 +3V3 after ferrite bead:
 
@@ -68,7 +68,7 @@ V_PP = 4,5 mV
 
 V_RMS = 814 µV
 
-![](scope/SDS2504X Plus_PNG_4.png)
+![](scope/SDS2504X_Plus_PNG_4.png)
 
 -2V:
 
@@ -76,7 +76,7 @@ V_PP = 5,3 mV
 
 V_RMS = 1,1 mV
 
-![](scope/SDS2504X Plus_PNG_5.png)
+![](scope/SDS2504X_Plus_PNG_5.png)
 
 -2V after ferrite bead:
 
@@ -84,7 +84,7 @@ V_PP = 4,13 mV
 
 V_RMS = 800 µV
 
-![](scope/SDS2504X Plus_PNG_6.png)
+![](scope/SDS2504X_Plus_PNG_6.png)
 
 # Output signal noise
 
@@ -98,7 +98,7 @@ V_PP = 12,5 mV
 
 V_RMS = 1,43 mV
 
-![](scope/SDS2504X Plus_PNG_7.png)
+![](scope/SDS2504X_Plus_PNG_7.png)
 
 ## Correlation with power supply ripple
 
@@ -106,9 +106,9 @@ No obvious correlation. Signal noise seems to be inherent to signal chain, not s
 
 F1 = FFT(C1), F2 = FFT(C2)
 
-![](scope/SDS2504X Plus_PNG_8.png)
+![](scope/SDS2504X_Plus_PNG_8.png)
 
-![](scope/SDS2504X Plus_PNG_10.png)
+![](scope/SDS2504X_Plus_PNG_10.png)
 
 # Accuracy
 
@@ -141,19 +141,19 @@ F1 = FFT(C1), F2 = FFT(C2)
 
 * Output voltage amplitude in Vpp:
 
-![](scope/SDS2504X Plus_PNG_17.png) 
+![](scope/SDS2504X_Plus_PNG_17.png) 
 
 * CH1 / CH2 in dB (why -34dB? Current sense amplifier is scaling 1 A / 1 V. With 100 R the current is 100 times smaller than the generator voltage. 1/100 = -40dB. The difference of 6dB = 0,5 comes from the voltage divider: generator output resistance and the resistance added to the current path. Both are 50R)
 
-![](scope/SDS2504X Plus_PNG_16.png) 
+![](scope/SDS2504X_Plus_PNG_16.png) 
 
 ## Time domain (square wave)
 
 Same measurement setup as in [Bode plot](#Bode plot). The noise is relatively high because of the limited current capability of the signal generator (this applies for the bode plot, too).
 
-![](scope/SDS2504X Plus_PNG_19.png) 
-![](scope/SDS2504X Plus_PNG_20.png) 
-![](scope/SDS2504X Plus_PNG_21.png) 
+![](scope/SDS2504X_Plus_PNG_19.png) 
+![](scope/SDS2504X_Plus_PNG_20.png) 
+![](scope/SDS2504X_Plus_PNG_21.png) 
 
 # Notes
 
