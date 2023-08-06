@@ -3,6 +3,7 @@
 1. C101, C102: wrong footprint, 0805 instead of 0603
 2. FB100, FB101: wrong footprint, 1206 instead of 0805 but 742792620 should be 0603
 3. DNP parts are shown on ibom
+4. U103: wrong pinout (should be non-R type), GND and RESET flipped.
 
 # Modifications
 
