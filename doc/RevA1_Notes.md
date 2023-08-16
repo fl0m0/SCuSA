@@ -156,6 +156,18 @@ Same measurement setup as in [Bode plot](#Bode plot). The noise is relatively hi
 ![](scope/SDS2504X_Plus_PNG_20.png) 
 ![](scope/SDS2504X_Plus_PNG_21.png) 
 
+# Change to single supply
+
+With JP103 in setting 2-3 the negative supply voltage is set to GND. I implemented this option to because I wasn't sure if a dual supply is such a good idea. **It was not!**
+
+![image-20230816185456309](img/image-20230816185456309.png)
+
+V_PP drops from 12.5 mV to 2.5 mV, V_RMS drops from 1.43 mV to 180 µV at the current sense amplifier output. The noise at the 50R buffer (CH4) is even lower.
+
+I guess this is where the Power Supply Rejection Ratio (PSRR) of the amplifier comes into play. With a dual supply and the scope measurement referenced to ground the PSRR doesn't do anything. For a redesign I will use a step up converter and a single supply.
+
+![](scope/SDS2504X_Plus_PNG_22.png)
+
 # Notes
 
 * Trimming potentiometer can be used to increase the positive (or negative) measurement range. Turing it fully left offsets the output voltage to -2 V. This increases the positive current measurement range to 5.3 A (3.3 V - (-2 V)).
