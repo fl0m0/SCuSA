@@ -164,7 +164,11 @@ With JP103 in setting 2-3 the negative supply voltage is set to GND. I implement
 
 V_PP drops from 12.5 mV to 2.5 mV, V_RMS drops from 1.43 mV to 180 µV at the current sense amplifier output. The noise at the 50R buffer (CH4) is even lower.
 
-I guess this is where the Power Supply Rejection Ratio (PSRR) of the amplifier comes into play. With a dual supply and the scope measurement referenced to ground the PSRR doesn't do anything. For a redesign I will use a step up converter and a single supply.
+I guess this is where the Power Supply Rejection Ratio (PSRR) of the amplifier comes into play. With a dual supply and the scope measurement referenced to ground the PSRR doesn't do anything. For a redesign I will use a step up converter and a single supply. Possible parts:
+
+* [LM2750](https://www.ti.com/lit/ds/symlink/lm2750.pdf) or [LM2775](https://www.ti.com/lit/ds/symlink/lm2775.pdf)
+* [NCP163](https://www.onsemi.com/download/data-sheet/pdf/ncp163-d.pdf) as post regulator, fixed voltage of 4.5V
+* [TPS7A49](https://www.ti.com/lit/ds/symlink/tps7a49.pdf) as post regulator, adjustable voltage, ~300 mV dropout, high PSRR > 1 MHz
 
 ![](scope/SDS2504X_Plus_PNG_22.png)
 
