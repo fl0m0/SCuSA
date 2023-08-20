@@ -58,8 +58,7 @@
       "drc_exclusions": [
         "courtyards_overlap|122249999|79920001|21e1690d-6f82-42d9-814a-832099bd49ec|e6583eae-cb32-48be-9adf-902e5ca3932e",
         "silk_edge_clearance|112000000|70150000|677a7efb-09dd-410e-b6c4-cac160c9847a|fca8bff0-3acc-4f01-86c8-f068d77f9ded",
-        "silk_edge_clearance|112000000|79350000|677a7efb-09dd-410e-b6c4-cac160c9847a|43e9dc3f-0c3a-425e-b55f-66afec893462",
-        "silk_overlap|143166481|87900000|74c0022a-278e-4f27-8a6c-ec5853a5b3c3|385d0c69-3cf1-46e7-98a6-e0df6bad0fd8"
+        "silk_edge_clearance|112000000|79350000|677a7efb-09dd-410e-b6c4-cac160c9847a|43e9dc3f-0c3a-425e-b55f-66afec893462"
       ],
       "meta": {
         "version": 2
@@ -183,6 +182,7 @@
         0.25,
         0.3,
         0.4,
+        0.5,
         0.6,
         0.8,
         1.0,
