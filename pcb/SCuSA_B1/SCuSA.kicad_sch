@@ -6,7 +6,7 @@
 
   (title_block
     (title "SCuSA - Scope Current Sense Amplifier")
-    (date "2023-07-15")
+    (date "2023-08-21")
     (rev "Rev B1")
     (company "fl0m0")
   )
@@ -3883,8 +3883,8 @@
     )
     (pin "1" (uuid 2af4a8fb-a6e4-4dca-89d5-2a7ab7506755))
     (pin "2" (uuid 37483812-d3c2-454b-8fd9-fea1ae6ef82e))
-    (pin "MP" (uuid 8a2358ad-45d4-4182-85fc-e7a10c6fa9c8))
-    (pin "MP" (uuid 8a2358ad-45d4-4182-85fc-e7a10c6fa9c8))
+    (pin "MP" (uuid 8a2358ad-45d4-4182-85fc-e7a10c6fa9c9))
+    (pin "MP" (uuid 8a2358ad-45d4-4182-85fc-e7a10c6fa9c9))
     (instances
       (project "SCuSA"
         (path "/7c524ebf-103a-4dc7-9ca9-e5a941b364b9"
@@ -4560,8 +4560,8 @@
     )
     (pin "1" (uuid 89b4e0c6-2fc7-4dc1-9599-d2aa816a20ff))
     (pin "2" (uuid ad3c43f7-da0d-40bc-a72f-52ebdf818eea))
-    (pin "MP" (uuid 5e0b6cac-4b24-43a3-bccc-f3ebe66926d7))
-    (pin "MP" (uuid 5e0b6cac-4b24-43a3-bccc-f3ebe66926d7))
+    (pin "MP" (uuid 5e0b6cac-4b24-43a3-bccc-f3ebe66926d8))
+    (pin "MP" (uuid 5e0b6cac-4b24-43a3-bccc-f3ebe66926d8))
     (instances
       (project "SCuSA"
         (path "/7c524ebf-103a-4dc7-9ca9-e5a941b364b9"
