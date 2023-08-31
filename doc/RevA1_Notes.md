@@ -10,6 +10,9 @@
 1. FB100, FB101: used 742792118 (had the right footprint and was available as leftover from previous projects)
 1. R104 changed to 1.2k to adjust charging indicator LED brightness
 1. R103 changed to 4.7k to increase charge current to ~ 210 mA
+1. Replace U103 with [BD4836G](https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bd48xxg-e.pdf), 3.6 V Supervisor in SOT-23-5 package. Solder bodge wire on pad 3 to pin 2.
+
+![](img/U103_fix.JPG)
 
 # To Dos
 
