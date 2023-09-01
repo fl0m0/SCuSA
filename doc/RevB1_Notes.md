@@ -20,9 +20,9 @@
 
 ## Sense Resistor
 
-Tested with 3 A
+@ 3 A, 5 A, 6 A (6 A not in steady state, temp. still slowly rising)
 
-![](img/IRI_20230831_151020.jpg)
+![](img/IRI_20230831_151020.jpg) ![](img/IRI_20230901_131541.jpg) ![](img/IRI_20230901_131411.jpg)
 
 ## Charge Pump
 
