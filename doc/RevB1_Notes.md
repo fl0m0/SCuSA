@@ -25,19 +25,25 @@ Efficency is around 45%:
 
 ![image-20230904200355752](img/image-20230904200355752.png)
 
-$\frac{1}{45\ \%} \cdot (4.1\ +\ 3.7)\ mA =\ 17.3 mA$ so the measurements seem plausible. PFM mode shouldn't improve the results with load current > 7 mA:
+$\frac{(4.1\ +\ 3.7)\ mA}{45\ \%}\ =\ 17.3\ mA$ so the measurements seem plausible. PFM mode shouldn't improve the results with load current > 7 mA:
 
 ![image-20230904200846734](img/image-20230904200846734.png)
 
-
-
 ## +5V voltage ripple
 
-![](scope/SDS2504X_Plus_PNG_23.png)
+First screenshot before ferrite, second after ferrite. Filter reduces the ripple approx. 2.7 times.
 
-## Line regulation
+![](scope/SDS2504X_Plus_PNG_26.png)
+![](scope/SDS2504X_Plus_PNG_27.png)
+
++5V after ferrite, bufferd output loaded with 50 Ohms. No significant increase in ripple voltage.
+
+![](scope/SDS2504X_Plus_PNG_28.png)
 
 ## Load regulation
+
+See spreadsheet
+
 
 
 
@@ -45,7 +51,17 @@ $\frac{1}{45\ \%} \cdot (4.1\ +\ 3.7)\ mA =\ 17.3 mA$ so the measurements seem p
 
 ## Output voltage at 0 A
 
+`Probe` = unbuffered output
+
+`Koax` = 50R buffered output
+
 ![](scope/SDS2504X_Plus_PNG_24.png)
+
+## Square wave measurement
+
+Measurement (`C1`) of a 6.6 V, 10 kHz square (`C3 `) wave with 22 Ohms load. 
+
+![](scope/SDS2504X_Plus_PNG_25.png)
 
 # Thermal Images
 
